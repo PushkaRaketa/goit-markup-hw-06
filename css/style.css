@@ -907,20 +907,16 @@ a {
 }
 
 .icon-check {
+  background-repeat: no-repeat;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin-right: 7px;
-  border-radius: 4px;
   cursor: pointer;
 }
 
-.check-input {
+.icon-check .check-input {
   appearance: none;
-  position: absolute;
-
-  -moz-appearance: none;
-  -webkit-appearance: none;
 }
 
 /* .checkbox-border {
@@ -931,22 +927,22 @@ a {
   transition: background-color 250ms var(--cubic);
 } */
 
-.check-input:checked + .checkbox-border {
+/* .check-input:checked + .checkbox-border {
   border: 1px solid transparent;
   border-radius: 2px;
   background-size: contain;
   background-origin: border-box;
-}
+} */
 
 .cb-form-submit {
   padding: 10px 55px 10px 56px;
   letter-spacing: 0.06em;
 }
 
-.check-input .cb-form-submit:hover,
+/* .check-input .cb-form-submit:hover,
 .cb-form-submit:focus {
   background-color: rgb(24, 140, 232);
-}
+} */
 
 .form-link {
   color: var(--accent-color);
