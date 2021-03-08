@@ -900,7 +900,7 @@ a {
 .check-input:checked + .icon-check {
   background-repeat: no-repeat;
   background-color: var(--accent-color);
-  background-image: url(../img/Vector.svg);
+  background-image: url(../img/galochka.svg);
   background-size: contain;
   fill: var(--accent-color);
   background-origin: border-box;
@@ -915,7 +915,7 @@ a {
   cursor: pointer;
 }
 
-.icon-check .check-input {
+.check-input {
   appearance: none;
 }
 
